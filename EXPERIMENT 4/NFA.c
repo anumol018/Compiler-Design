@@ -38,7 +38,7 @@ int main()
 
     FILE *INPUT;
 
-    INPUT=fopen("input.dat","w");
+    INPUT=fopen("input.dat","r");
 
     char state[3];
 
@@ -107,5 +107,3 @@ int main()
     return 0;
 
 }
-
- 
